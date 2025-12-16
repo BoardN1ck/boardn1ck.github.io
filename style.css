@@ -131,4 +131,24 @@ main {
     .image-box, .text-box {
         width: 100%; /* Make them full width */
     }
+    
+}
+
+.social-menu {
+    position: absolute;
+    top: 60px; /* Position it below the header */
+    right: 20px;
+    background-color: #FFFF00; /* Yellow background */
+    color: #000000; /* Black text */
+    border: 3px solid #000000;
+    padding: 10px;
+    display: none; /* Crucial: Start hidden */
+    flex-direction: column;
+    z-index: 1000; /* Make sure it's on top of other elements */
+}
+
+.social-menu a {
+    color: #000000;
+    text-decoration: none;
+    padding: 5px 0;
 }
