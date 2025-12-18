@@ -1,26 +1,18 @@
 body {
-    /* Set background to black */
     background-color: #000000; 
-    /* Set text color to yellow by default */
     color: #FFFF00;
-    /* Use the imported pixel font */
     font-family: 'VT323', monospace; 
-    /* Remove default margins */
     margin: 0; 
-    /* Optional: Center the content if the screen is very wide */
-    /* max-width: 1200px; */
-    /* margin: 0 auto; */ 
 }
 
-/* Class to ensure all designated text uses the pixel font */
+
 .pixel-text {
     font-family: 'VT323', monospace;
-    /* Increase font size for better pixel look. Adjust as needed. */
     font-size: 20px; 
     line-height: 1.2;
 }
 
-/* --- Header Styling (Title and Dots) --- */
+
 header {
     display: flex;
     justify-content: space-between;
@@ -30,7 +22,7 @@ header {
 }
 
 header h1 {
-    font-size: 50px; /* Make the title very large and chunky */
+    font-size: 50px; 
     margin: 0;
     /* Remove default text shadow/glow if any */
     text-shadow: none; 
@@ -38,46 +30,33 @@ header h1 {
 
 .header-dots {
     display: flex;
-    gap: 10px; /* Space between the dots */
+    gap: 10px; 
 }
 
 .dot {
     display: block;
     width: 15px;
     height: 15px;
-    background-color: #FFFF00; /* Yellow dot color */
-    /* Make the dots square and pixelated */
+    background-color: #FFFF00;
     border: none; 
 }
 
-/* --- Navigation Styling (The Buttons) --- */
+
 nav {
     display: flex;
-    /* Wrap to a new line if the screen is too narrow */
     flex-wrap: wrap; 
-    /* Space out the buttons */
     gap: 10px; 
     padding: 0 20px 20px 20px;
-    /* Add a solid line separator below the buttons if desired */
-    /* border-bottom: 2px solid #FFFF00; */
 }
 
 .nav-button {
-    /* Makes the button the distinct yellow block */
     background-color: #FFFF00; 
-    /* Text inside the button is black */
     color: #000000; 
-    /* Adds padding to make the button large */
     padding: 10px 20px; 
-    /* Removes the default underline from the link */
     text-decoration: none; 
-    /* Ensure the text is in the pixel font */
     font-weight: bold;
-    /* Optional: Add a subtle 'pixel' border for extra detail */
-    /* border: 1px solid black; */
 }
 
-/* Hover/Active states make the buttons interactive */
 .nav-button:hover {
     background-color: #AAAA00; /* Darker yellow on hover */
     cursor: pointer;
@@ -90,61 +69,53 @@ main {
 
 .content-row {
     display: flex;
-    /* Space between the columns (image and text) */
     gap: 20px; 
     margin-bottom: 40px;
 }
 
-/* Ensure the layout reverses for the bottom row */
 .bottom-row {
     flex-direction: row-reverse;
 }
 
 .image-box {
-    /* Fixed width for the image container */
+    
     width: 40%; 
-    /* The large yellow box */
     background-color: #FFFF00; 
     color: #000000; 
-    /* Center the placeholder text */
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 300px; /* Set a height for the box */
+    height: 300px; 
     font-size: 24px;
 }
 
 .text-box {
-    /* Take up the remaining space */
     width: 60%; 
-    /* The text content has black background and yellow text */
     padding: 0; 
     color: #FFFF00;
 }
 
-/* Adjust for smaller screens where the layout might break */
 @media (max-width: 768px) {
     .content-row {
-        /* Stack the image and text vertically */
         flex-direction: column !important; 
     }
     .image-box, .text-box {
-        width: 100%; /* Make them full width */
+        width: 100%;
     }
     
 }
 
 .social-menu {
     position: absolute;
-    top: 60px; /* Position it below the header */
+    top: 60px; 
     right: 20px;
-    background-color: #FFFF00; /* Yellow background */
-    color: #000000; /* Black text */
+    background-color: #FFFF00; 
+    color: #000000; 
     border: 3px solid #000000;
     padding: 10px;
-    display: none; /* Crucial: Start hidden */
+    display: none; 
     flex-direction: column;
-    z-index: 1000; /* Make sure it's on top of other elements */
+    z-index: 1000; 
 }
 
 .social-menu a {
