@@ -63,15 +63,18 @@ nav {
     cursor: pointer;
 }
 
-/* --- Content Layout --- */
+
 main {
     padding: 20px;
 }
 
 .content-row {
     display: flex;
+    justify-content: center; 
+    align-items: center;    
     gap: 20px; 
     margin-bottom: 40px;
+    width: 100%;          
 }
 
 .bottom-row {
@@ -119,10 +122,11 @@ main {
     display: block;
 }
 
-/* Optional: If you want to keep the "pixel art" look sharp */
+
 .pixel-image {
-    image-rendering: pixelated;
-    width: 900px;
+    width: 300px;
     height: auto;
     image-rendering: pixelated;
+    display: block;
+    margin: 0 auto;
 }
