@@ -122,4 +122,5 @@ main {
 /* Optional: If you want to keep the "pixel art" look sharp */
 .pixel-image {
     image-rendering: pixelated;
+    width: 20px;
 }
