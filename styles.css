@@ -124,7 +124,7 @@ main {
 
 
 .pixel-image {
-    width: 600px;
+    width: 400px;
     height: auto;
     image-rendering: pixelated;
     display: block;
