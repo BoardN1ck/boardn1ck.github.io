@@ -23,7 +23,7 @@ header {
 }
 
 header h1 {
-    font-size: 120px; 
+    font-size: 90px; 
     margin: 0;
     /* Remove default text shadow/glow if any */
     text-shadow: none; 
