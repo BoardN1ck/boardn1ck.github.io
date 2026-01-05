@@ -123,4 +123,6 @@ main {
 .pixel-image {
     image-rendering: pixelated;
     width: 20px;
+    height: auto;
+    image-rendering: pixelated;
 }
