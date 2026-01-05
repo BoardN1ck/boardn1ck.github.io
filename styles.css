@@ -77,18 +77,6 @@ main {
     flex-direction: row-reverse;
 }
 
-.image-box {
-    
-    width: 40%; 
-    background-color: #FFFF00; 
-    color: #000000; 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 300px; 
-    font-size: 24px;
-}
-
 .text-box {
     width: 60%; 
     padding: 0; 
