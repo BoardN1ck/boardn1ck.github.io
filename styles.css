@@ -7,7 +7,8 @@ body {
 
 
 .pixel-text {
-    font-family: 'VT323', monospace;
+    font-family: 'VT323', monospace;h1
+    
     font-size: 20px; 
     line-height: 1.2;
 }
@@ -22,7 +23,7 @@ header {
 }
 
 header h1 {
-    font-size: 100px; 
+    font-size: 140px; 
     margin: 0;
     /* Remove default text shadow/glow if any */
     text-shadow: none; 
